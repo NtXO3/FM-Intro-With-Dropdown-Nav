@@ -10,6 +10,8 @@ const companyDropdownEl = document.querySelector('company__dropdown')
 const mobileOpen = document.querySelector('.btn__menu')
 const mobileClose = document.querySelector('.close')
 
+const body = document.body
+
 mobileClose.addEventListener('click', () => {
     document.body.classList.remove('menu-open')
     document.body.classList += ' menu-closed'
