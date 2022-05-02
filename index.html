@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Section With Dropdown Navigation</title>
+    <script src="https://kit.fontawesome.com/ab0ed63c54.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="">
+    <header>
+        <nav>
+            <div class="nav__container">
+                <a href="" class="mobile__logo">
+                    <img src="./images/logo.svg" alt="" class="nav__logo">
+                </a>
+                <ul class="nav__links">
+                    <li class="nav__link">
+                        <a href="" class="nav__link--anchor">
+                            <img src="./images/logo.svg" alt="" class="nav__logo">
+                        </a>
+                    </li>
+                    <li class="nav__link" id="features__dropdown--toggle">
+                        <a class="nav__link--anchor">
+                            Features <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg> 
+                        </a>
+                        <div class="nav__dropdown features__dropdown">
+                            <div class="dropdown__icons">
+                                <div class="dropdown__icon">
+                                    <svg width="14" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14 3v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h1V1a1 1 0 1 1 2 0v1h2V1a1 1 0 1 1 2 0v1h2V1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 1 1Zm-2 3H2v1h10V6Zm0 3H2v1h10V9Zm0 3H2v1h10v-1Z" fill="#726CEE"/></svg>
+                                </div>
+                                <div class="dropdown__icon">
+                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M12.667 8.667h-4v4h4v-4ZM11.334 0v1.333H4.667V0h-2v1.333h-1C.75 1.333 0 2.083 0 3v11.333C0 15.25.75 16 1.667 16h12.667C15.25 16 16 15.25 16 14.333V3c0-.917-.75-1.667-1.666-1.667h-1V0h-2Zm3 14.333H1.667V5.5h12.667v8.833Z" fill="#4BB1DA"/></svg>
+                                </div>
+                                <div class="dropdown__icon">
+                                    <svg width="13" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M6.408 13.916c-3.313 0-6-1.343-6-3 0-.612.371-1.18 1-1.654V7.916a5 5 0 0 1 3.041-4.6 2 2 0 0 1 3.507-1.664 2 2 0 0 1 .411 1.664 5.002 5.002 0 0 1 3.041 4.6v1.346c.629.474 1 1.042 1 1.654 0 1.657-2.687 3-6 3Zm0 1c.694 0 1.352-.066 1.984-.16.004.054.016.105.016.16a2 2 0 0 1-4 0c0-.055.012-.106.016-.16.633.094 1.29.16 1.984.16Z" fill="#EDD556"/></svg>
+                                </div>
+                                <div class="dropdown__icon">
+                                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm0 2.133a5.867 5.867 0 1 0 0 11.734A5.867 5.867 0 0 0 8 2.133ZM8 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Zm-.533 2.667a.533.533 0 0 0-.534.533v2.133c0 .295.24.534.534.534h3.2a.533.533 0 0 0 0-1.067H8V6.4a.533.533 0 0 0-.533-.533Z" fill="#8E4CB6"/></svg>
+                                </div>
+                            </div>
+                            <ul class="dropdown__links">
+                                <li class="dropdown__link">
+                                    <a href="" class="dropdown__link--anchor">Todo List</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="" class="dropdown__link--anchor">Calendar</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="" class="dropdown__link--anchor">Reminders</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="" class="dropdown__link--anchor">Planning</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__link" id="company__dropdown--toggle">
+                        <a class="nav__link--anchor">
+                            Company <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg> 
+                        </a>
+                        <div class="nav__dropdown company__dropdown">
+                            <ul class="dropdown__links">
+                                <li class="dropdown__link">
+                                    <a href="" class="dropdown__link--anchor">History</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="" class="dropdown__link--anchor">Our Team</a>
+                                </li>
+                                <li class="dropdown__link">
+                                    <a href="" class="dropdown__link--anchor">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__link">
+                        <a href="" class="nav__link--anchor">
+                            Careers
+                        </a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="" class="nav__link--anchor">
+                            About
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav__account">
+                    <a href="" class="nav__link--anchor">Login</a>
+                    <a href="" class="nav__link--anchor nav__btn">Register</a>
+                </div>
+                <div class="btn__menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="menu__backdrop">
+                    <div class="mobile__menu">
+                        <div class="menu__close">
+                            <i class="close"><svg width="26" height="26" xmlns="http://www.w3.org/2000/svg"><g fill="#151515" fill-rule="evenodd"><path d="m2.393.98 22.628 22.628-1.414 1.414L.979 2.395z"/><path d="M.98 23.607 23.609.979l1.414 1.414L2.395 25.021z"/></g></svg></i>
+                        </div>
+                        <ul class="mobile__links">
+                            <li class="mobile__link" id="mobile__features--toggle">
+                                <a class="mobile__link--anchor">Features&nbsp;&nbsp; <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg> 
+                                </a>
+                                <div class="mobile__dropdown">
+                                    <div class="dropdown__icons">
+                                        <div class="dropdown__icon">
+                                            <svg width="14" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M14 3v12a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h1V1a1 1 0 1 1 2 0v1h2V1a1 1 0 1 1 2 0v1h2V1a1 1 0 0 1 2 0v1h1a1 1 0 0 1 1 1Zm-2 3H2v1h10V6Zm0 3H2v1h10V9Zm0 3H2v1h10v-1Z" fill="#726CEE"/></svg>
+                                        </div>
+                                        <div class="dropdown__icon">
+                                            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M12.667 8.667h-4v4h4v-4ZM11.334 0v1.333H4.667V0h-2v1.333h-1C.75 1.333 0 2.083 0 3v11.333C0 15.25.75 16 1.667 16h12.667C15.25 16 16 15.25 16 14.333V3c0-.917-.75-1.667-1.666-1.667h-1V0h-2Zm3 14.333H1.667V5.5h12.667v8.833Z" fill="#4BB1DA"/></svg>
+                                        </div>
+                                        <div class="dropdown__icon">
+                                            <svg width="13" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M6.408 13.916c-3.313 0-6-1.343-6-3 0-.612.371-1.18 1-1.654V7.916a5 5 0 0 1 3.041-4.6 2 2 0 0 1 3.507-1.664 2 2 0 0 1 .411 1.664 5.002 5.002 0 0 1 3.041 4.6v1.346c.629.474 1 1.042 1 1.654 0 1.657-2.687 3-6 3Zm0 1c.694 0 1.352-.066 1.984-.16.004.054.016.105.016.16a2 2 0 0 1-4 0c0-.055.012-.106.016-.16.633.094 1.29.16 1.984.16Z" fill="#EDD556"/></svg>
+                                        </div>
+                                        <div class="dropdown__icon">
+                                            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Zm0 2.133a5.867 5.867 0 1 0 0 11.734A5.867 5.867 0 0 0 8 2.133ZM8 3.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6Zm-.533 2.667a.533.533 0 0 0-.534.533v2.133c0 .295.24.534.534.534h3.2a.533.533 0 0 0 0-1.067H8V6.4a.533.533 0 0 0-.533-.533Z" fill="#8E4CB6"/></svg>
+                                        </div>
+                                    </div>
+                                    <ul class="dropdown__links">
+                                        <li class="dropdown__link">
+                                            <a href="" class="dropdown__link--anchor">Todo List</a>
+                                        </li>
+                                        <li class="dropdown__link">
+                                            <a href="" class="dropdown__link--anchor">Calendar</a>
+                                        </li>
+                                        <li class="dropdown__link">
+                                            <a href="" class="dropdown__link--anchor">Reminders</a>
+                                        </li>
+                                        <li class="dropdown__link">
+                                            <a href="" class="dropdown__link--anchor">Planning</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mobile__link" id="mobile__company--toggle">
+                                <a class="mobile__link--anchor">Company&nbsp;&nbsp; <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg"><path stroke="#686868" stroke-width="1.5" fill="none" d="m1 1 4 4 4-4"/></svg> 
+                                </a>
+                                <div class="mobile__dropdown">
+                                    <ul class="dropdown__links">
+                                        <li class="dropdown__link">
+                                            <a href="" class="dropdown__link--anchor">History</a>
+                                        </li>
+                                        <li class="dropdown__link">
+                                            <a href="" class="dropdown__link--anchor">Our Team</a>
+                                        </li>
+                                        <li class="dropdown__link">
+                                            <a href="" class="dropdown__link--anchor">Blog</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="mobile__link">
+                                <a href="" class="mobile__link--anchor">Careers</a>
+                            </li>
+                            <li class="mobile__link">
+                                <a href="" class="mobile__link--anchor">About</a>
+                            </li>
+                        </ul>
+                        <div class="nav__account">
+                            <a href="" class="nav__link--anchor">Login</a>
+                            <a href="" class="nav__link--anchor nav__btn">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="landing">
+            <div class="container">
+                <div class="row">
+                    <div class="landing__wrapper">
+                        <div class="landing__description">
+                            <h1 class="landing__title">Make <br>remote work</h1>
+                            <h1 class="landing__title--mobile">Make remote work</h1>
+                            <p class="landing__para">Get your team in sync, no matter your location.
+                                Streamline processes, create team rituals and watch productivity soar.
+                            </p>
+                            <button class="landing__btn">Learn more</button>
+                            <div class="social__proof--wrapper">
+                                <img src="./images/client-databiz.svg" alt="" class="social__proof--img">
+                                <img src="./images/client-audiophile.svg" alt="" class="social__proof--img">
+                                <img src="./images/client-meet.svg" alt="" class="social__proof--img">
+                                <img src="./images/client-maker.svg" alt="" class="social__proof--img">
+                            </div>
+                        </div>
+                        <figure class="landing__img--wrapper">
+                            <img src="./images/image-hero-desktop.png" alt="" class="landing__img">
+                            <img src="./images/image-hero-mobile.png" alt="" class="landing__img--mobile">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <script src="index.js"></script>
+</body>
+</html>
