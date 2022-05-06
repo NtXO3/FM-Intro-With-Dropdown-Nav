@@ -15,6 +15,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Epilogue', sans-serif;
+    overflow-x: hidden;
 }
 
 li {
@@ -27,6 +28,7 @@ a {
 
 body {
     background-color: var(--color-near-white);
+    
 }
 
 .container {
@@ -63,6 +65,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 1rem;
 }
 
 .mobile__logo {
@@ -112,7 +115,6 @@ nav {
 .nav__btn:hover {
     background-color: var(--color-medium-gray);
     color: var(--color-near-white);
-    
 }
 
 .nav__dropdown {
@@ -366,7 +368,7 @@ nav {
     }
 
     .btn__menu {
-        display: flex;
+        display: flex !important;
         justify-content: center;
         align-items: center;
         font-size: 24px;
